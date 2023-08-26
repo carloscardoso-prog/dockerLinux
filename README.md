@@ -22,7 +22,7 @@ docker login
 docker context ls
 
 6- 
-docker context use desktop-linux
+docker context use desktop-linux (you may change this to the context you're using)
 
 7- 
 docker-compose up -d --build
