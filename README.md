@@ -1,4 +1,4 @@
-# dockerLinux
+# dockerLinuxFixBoot
 Fixing some problems booting up docker on linux
 
 I had some problems booting up docker on linux (fedora), so i'm documenting everything to help others (and myself) in the future.
@@ -22,7 +22,7 @@ docker login
 docker context ls
 
 6- 
-docker context use desktop-linux (you may change this to the context you're using)
+docker context use <desktop-linux> (you may change <desktop-linux> to the context name you're using)
 
 7- 
 docker-compose up -d --build
