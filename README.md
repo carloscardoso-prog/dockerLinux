@@ -4,6 +4,7 @@ Fixing some problems booting up docker on linux
 I had some problems booting up docker on linux (fedora), so i'm documenting everything to help others (and myself) in the future.
 
 Remember to open the terminal in your project folder before running any commands in the terminal.
+Also open docker desktop manually before starting.
 
 1- 
 systemctl stop docker
@@ -13,9 +14,6 @@ rm ~/.docker/config.json
 
 3- 
 systemctl start docker
- 
-
-3.5- open docker desktop manually
 
 4- 
 docker login
